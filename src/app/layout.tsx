@@ -17,15 +17,16 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://sthefanogoes.com.br"),
-  title: "Sthefano Goes | Psicólogo em Santa Maria RS",
+  title: "Sthefano Goes | Psicólogo em Santa Maria/RS | Atendimento Online para Todo o Brasil",
   description:
-    "Psicólogo em Santa Maria/RS especializado em Terapia Cognitivo-Comportamental (TCC). Atendimento presencial e online para adolescentes e adultos. CRP 07/44940.",
+    "Psicólogo em Santa Maria/RS com atendimento online para todo o Brasil. Especializado em Terapia Cognitivo-Comportamental (TCC) para adolescentes e adultos. CRP 07/44940.",
   keywords: [
     "psicólogo Santa Maria RS",
+    "psicólogo online Brasil",
     "TCC Santa Maria",
-    "terapia cognitivo comportamental Santa Maria",
-    "psicólogo online Santa Maria",
-    "psicólogo adolescentes Santa Maria RS",
+    "terapia cognitivo comportamental online",
+    "psicólogo online",
+    "psicólogo adolescentes",
     "Sthefano Goes psicólogo",
   ],
   openGraph: {
