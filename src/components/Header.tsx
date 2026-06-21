@@ -40,7 +40,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" aria-label="Início">
           <Image
-            src="/images/logo.png"
+            src={scrolled ? "/images/logo.png" : "/images/logo-blue.png"}
             alt="Sthefano Goes Psicólogo"
             width={120}
             height={48}
