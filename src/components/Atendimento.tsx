@@ -40,9 +40,9 @@ export default function Atendimento() {
 
         <div className="grid md:grid-cols-2 gap-6 mb-16">
           {publicos.map((p) => (
-            <div key={p.titulo} className="bg-beige rounded-2xl p-8">
-              <h3 className="font-serif text-2xl text-navy mb-3">{p.titulo}</h3>
-              <p className="font-sans text-muted leading-relaxed">{p.descricao}</p>
+            <div key={p.titulo} className="bg-navy rounded-2xl p-8">
+              <h3 className="font-serif text-2xl text-white mb-3">{p.titulo}</h3>
+              <p className="font-sans text-blue-200 leading-relaxed">{p.descricao}</p>
             </div>
           ))}
         </div>
