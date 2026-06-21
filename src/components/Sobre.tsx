@@ -20,7 +20,7 @@ export default function Sobre() {
           <p className="font-serif text-sm tracking-[0.2em] uppercase text-navy">
             Sobre mim
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-stone leading-tight">
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-stone leading-tight">
             Sthefano Ledesma<br />Carissimi de Goes
           </h2>
           <p className="font-sans text-muted leading-relaxed">

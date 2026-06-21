@@ -3,25 +3,25 @@ const etapas = [
     numero: "01",
     titulo: "Primeiro contato",
     descricao:
-      "Você entra em contato pelo WhatsApp. Agendamos uma conversa para conhecer sua demanda e tirar dúvidas sobre o processo.",
+      "Entre em contato pelo WhatsApp. Identificamos juntos o que você busca e esclarecemos qualquer dúvida sobre o processo terapêutico.",
   },
   {
     numero: "02",
     titulo: "Sessão de avaliação",
     descricao:
-      "Na primeira sessão, mapeamos juntos sua história e objetivos. Não há respostas certas — apenas um espaço de escuta sem julgamentos.",
+      "Na primeira sessão, construímos um espaço de escuta genuíno. Mapeamos sua história, seus objetivos e o que você espera da terapia.",
   },
   {
     numero: "03",
     titulo: "Processo terapêutico",
     descricao:
-      "Trabalhamos de forma colaborativa e estruturada, com técnicas baseadas em evidências adaptadas à sua realidade e ao seu ritmo.",
+      "Com base em evidências científicas, trabalhamos de forma colaborativa — desenvolvendo ferramentas práticas e personalizadas para sua realidade.",
   },
   {
     numero: "04",
     titulo: "Autonomia e valores",
     descricao:
-      "O objetivo final é que você desenvolva ferramentas próprias para viver com mais liberdade, alinhado aos seus valores.",
+      "O objetivo central é que você desenvolva recursos próprios para viver com mais liberdade e alinhamento com o que verdadeiramente importa.",
   },
 ];
 
@@ -30,24 +30,23 @@ export default function ComoFunciona() {
     <section className="py-24 bg-beige">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-20">
-          <p className="font-serif text-sm tracking-[0.2em] uppercase text-navy mb-4">
+          <p className="font-sans text-xs tracking-[0.25em] uppercase text-navy mb-4">
             Processo
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-stone">
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-stone">
             Como funciona
           </h2>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
-          {etapas.map((e, i) => (
-            <div key={e.numero} className="relative">
-              {i < etapas.length - 1 && (
-                <div className="hidden lg:block absolute top-8 left-full w-full h-px bg-navy/20 -translate-x-5" />
-              )}
+          {etapas.map((e) => (
+            <div key={e.numero}>
               <p className="font-serif text-7xl text-navy/15 font-bold leading-none mb-4">
                 {e.numero}
               </p>
-              <h3 className="font-serif text-xl text-stone mb-3">{e.titulo}</h3>
+              <h3 className="font-serif font-semibold text-xl text-stone mb-3">
+                {e.titulo}
+              </h3>
               <p className="font-sans text-muted leading-relaxed text-sm">
                 {e.descricao}
               </p>

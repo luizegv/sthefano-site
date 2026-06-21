@@ -33,7 +33,7 @@ export default function Atendimento() {
           <p className="font-serif text-sm tracking-[0.2em] uppercase text-navy mb-4">
             Atendimento
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-stone">
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-stone">
             Para quem é
           </h2>
         </div>

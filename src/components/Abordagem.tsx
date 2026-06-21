@@ -27,7 +27,7 @@ export default function Abordagem() {
           <p className="font-serif text-sm tracking-[0.2em] uppercase text-blue-200 mb-4">
             Abordagem
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-6">
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl leading-tight mb-6">
             Terapia Cognitivo-<br />Comportamental
           </h2>
           <p className="font-sans text-blue-100 leading-relaxed">
