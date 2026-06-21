@@ -38,7 +38,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" aria-label="Início">
+        <a href="#" aria-label="Início" className="flex items-center gap-3">
           <Image
             src={scrolled ? "/images/logo.png" : "/images/logo-white.png"}
             alt="Sthefano Goes Psicólogo"
@@ -46,6 +46,10 @@ export default function Header() {
             height={48}
             className="h-10 w-auto"
           />
+          <div className={`hidden sm:block leading-tight transition-colors ${scrolled ? "text-stone" : "text-white"}`}>
+            <p className="font-serif font-semibold text-sm">Sthefano Ledesma Carissimi de Goes</p>
+            <p className={`font-sans text-xs tracking-wide ${scrolled ? "text-muted" : "text-blue-200"}`}>Psicólogo · CRP 07/44940</p>
+          </div>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

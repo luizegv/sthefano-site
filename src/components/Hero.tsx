@@ -39,7 +39,7 @@ export default function Hero() {
               Santa Maria, RS
             </h1>
             <p className="font-serif italic text-2xl text-blue-100 leading-relaxed">
-              "Mais autonomia para viver de acordo com seus valores."
+              Mais autonomia para viver de acordo com seus valores.
             </p>
             <p className="font-sans text-blue-200 leading-relaxed">
               Atendimento presencial em Santa Maria/RS e online para adolescentes
