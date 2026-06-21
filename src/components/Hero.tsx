@@ -60,6 +60,20 @@ export default function Hero() {
               >
                 Saiba mais
               </a>
+              <a
+                href="https://instagram.com/psi.sthefano"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram @psi.sthefano"
+                className="flex items-center justify-center gap-2 border border-white/30 text-white px-6 py-4 rounded-full font-sans font-medium hover:border-white/60 transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <circle cx="12" cy="12" r="4.5"/>
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+                @psi.sthefano
+              </a>
             </div>
           </div>
         </div>
