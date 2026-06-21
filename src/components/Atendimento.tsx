@@ -54,10 +54,10 @@ export default function Atendimento() {
             </p>
             {modalidades.map((m) => (
               <div key={m.titulo} className="flex gap-4">
-                <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 flex-shrink-0" />
+                <div className="w-1.5 h-1.5 rounded-full bg-navy mt-3 flex-shrink-0" />
                 <div>
-                  <h4 className="font-serif text-lg text-stone mb-1">{m.titulo}</h4>
-                  <p className="font-sans text-muted text-sm leading-relaxed">
+                  <h4 className="font-serif text-2xl text-stone mb-2">{m.titulo}</h4>
+                  <p className="font-sans text-muted text-base leading-relaxed">
                     {m.descricao}
                   </p>
                 </div>

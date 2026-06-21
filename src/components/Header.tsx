@@ -23,6 +23,14 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const linkClass = scrolled
+    ? "text-stone hover:text-navy"
+    : "text-white/90 hover:text-white";
+
+  const btnClass = scrolled
+    ? "bg-navy text-white hover:bg-navy-dark"
+    : "border border-white/50 text-white hover:bg-white/10";
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -45,7 +53,7 @@ export default function Header() {
             <a
               key={l.href}
               href={l.href}
-              className="text-stone text-sm font-sans font-medium hover:text-navy transition-colors"
+              className={`text-sm font-sans font-medium transition-colors ${linkClass}`}
             >
               {l.label}
             </a>
@@ -54,7 +62,7 @@ export default function Header() {
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-navy text-white px-5 py-2.5 rounded-full text-sm font-sans font-medium hover:bg-navy-dark transition-colors"
+            className={`px-5 py-2.5 rounded-full text-sm font-sans font-medium transition-colors ${btnClass}`}
           >
             Agendar
           </a>
@@ -67,13 +75,19 @@ export default function Header() {
           aria-expanded={open}
         >
           <span
-            className={`block w-6 h-0.5 bg-navy transition-transform duration-200 ${open ? "rotate-45 translate-y-2" : ""}`}
+            className={`block w-6 h-0.5 transition-all duration-200 ${
+              scrolled ? "bg-navy" : "bg-white"
+            } ${open ? "rotate-45 translate-y-2" : ""}`}
           />
           <span
-            className={`block w-6 h-0.5 bg-navy transition-opacity duration-200 ${open ? "opacity-0" : ""}`}
+            className={`block w-6 h-0.5 transition-all duration-200 ${
+              scrolled ? "bg-navy" : "bg-white"
+            } ${open ? "opacity-0" : ""}`}
           />
           <span
-            className={`block w-6 h-0.5 bg-navy transition-transform duration-200 ${open ? "-rotate-45 -translate-y-2" : ""}`}
+            className={`block w-6 h-0.5 transition-all duration-200 ${
+              scrolled ? "bg-navy" : "bg-white"
+            } ${open ? "-rotate-45 -translate-y-2" : ""}`}
           />
         </button>
       </div>

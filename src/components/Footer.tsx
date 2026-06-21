@@ -10,7 +10,7 @@ export default function Footer() {
             alt="Logo Sthefano Goes"
             width={48}
             height={48}
-            className="h-10 w-auto brightness-0 invert opacity-80"
+            className="h-10 w-auto rounded"
           />
           <div>
             <p className="font-serif font-medium">

@@ -5,53 +5,79 @@ const WA_URL =
 
 export default function Hero() {
   return (
-    <section className="bg-navy text-white min-h-screen flex flex-col md:flex-row overflow-hidden">
-      {/* Texto — esquerda */}
-      <div className="flex flex-col justify-center px-8 md:pl-16 lg:pl-28 pr-8 py-24 pt-32 md:pt-0 md:w-[52%] lg:w-[48%] flex-shrink-0">
-        <p className="font-sans text-xs tracking-[0.25em] uppercase text-blue-200 mb-6">
-          Psicólogo · CRP 07/44940
-        </p>
-        <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-6">
-          Psicólogo em<br />
-          Santa Maria, RS
-        </h1>
-        <p className="font-serif italic text-2xl md:text-3xl text-blue-100 leading-relaxed mb-6">
-          "Mais autonomia para viver<br className="hidden md:block" /> de acordo com seus valores."
-        </p>
-        <p className="font-sans text-blue-200 leading-relaxed mb-10 max-w-sm">
-          Atendimento presencial em Santa Maria/RS e online para adolescentes e
-          adultos, com base na Terapia Cognitivo-Comportamental.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <a
-            href={WA_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-navy px-8 py-4 rounded-full font-sans font-medium hover:bg-blue-50 transition-colors text-center"
-          >
-            Agendar pelo WhatsApp
-          </a>
-          <a
-            href="#sobre"
-            className="border border-white/30 text-white px-8 py-4 rounded-full font-sans font-medium hover:border-white/60 transition-colors text-center"
-          >
-            Saiba mais
-          </a>
-        </div>
-      </div>
+    <section className="bg-navy text-white min-h-screen overflow-hidden">
+      <div className="flex flex-col md:flex-row min-h-screen">
 
-      {/* Foto — direita, full-bleed */}
-      <div className="relative h-72 md:h-auto md:flex-1">
-        <Image
-          src="/images/foto-1.jpg"
-          alt="Sthefano Goes — psicólogo em Santa Maria RS"
-          fill
-          className="object-cover object-top"
-          priority
-          sizes="(max-width: 768px) 100vw, 52vw"
-        />
-        {/* gradiente de fusão com o fundo navy */}
-        <div className="absolute inset-y-0 left-0 w-40 bg-gradient-to-r from-navy to-transparent" />
+        {/* Coluna de texto — ocupa a tela inteira no mobile (foto fica atrás) */}
+        <div className="relative flex flex-col justify-end md:justify-center
+                        px-8 md:pl-16 lg:pl-28 pr-8
+                        pb-14 pt-0 md:py-24
+                        w-full md:w-[52%] lg:w-[48%] md:flex-shrink-0
+                        min-h-screen md:min-h-0">
+
+          {/* Foto como fundo no mobile */}
+          <div className="absolute inset-0 md:hidden">
+            <Image
+              src="/images/foto-1.jpg"
+              alt="Sthefano Goes — psicólogo em Santa Maria RS"
+              fill
+              className="object-cover object-top"
+              priority
+              sizes="100vw"
+            />
+            {/* Gradiente: transparente no topo → navy sólido na base */}
+            <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/80 to-navy/20" />
+          </div>
+
+          {/* Texto */}
+          <div className="relative z-10 space-y-6 max-w-lg">
+            <p className="font-sans text-xs tracking-[0.25em] uppercase text-blue-200">
+              Psicólogo · CRP 07/44940
+            </p>
+            <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl leading-[1.1]">
+              Psicólogo em<br />
+              Santa Maria, RS
+            </h1>
+            <p className="font-serif italic text-2xl text-blue-100 leading-relaxed">
+              "Mais autonomia para viver de acordo com seus valores."
+            </p>
+            <p className="font-sans text-blue-200 leading-relaxed">
+              Atendimento presencial em Santa Maria/RS e online para adolescentes
+              e adultos, com base na Terapia Cognitivo-Comportamental.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
+              <a
+                href={WA_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-navy px-8 py-4 rounded-full font-sans font-medium hover:bg-blue-50 transition-colors text-center"
+              >
+                Agendar pelo WhatsApp
+              </a>
+              <a
+                href="#sobre"
+                className="border border-white/30 text-white px-8 py-4 rounded-full font-sans font-medium hover:border-white/60 transition-colors text-center"
+              >
+                Saiba mais
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Foto lateral — apenas desktop */}
+        <div className="hidden md:block relative flex-1">
+          <Image
+            src="/images/foto-1.jpg"
+            alt="Sthefano Goes — psicólogo em Santa Maria RS"
+            fill
+            className="object-cover object-top"
+            priority
+            sizes="52vw"
+          />
+          {/* Gradiente de fusão com o fundo navy */}
+          <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-navy to-transparent" />
+        </div>
+
       </div>
     </section>
   );
