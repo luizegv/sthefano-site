@@ -45,7 +45,7 @@ export default function Hero() {
               Atendimento presencial em Santa Maria/RS e online para adolescentes
               e adultos, com base na Terapia Cognitivo-Comportamental.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-2">
+            <div className="flex flex-col gap-4 pt-2 max-w-xs">
               <a
                 href={WA_URL}
                 target="_blank"
@@ -72,7 +72,7 @@ export default function Hero() {
                   <circle cx="12" cy="12" r="4.5"/>
                   <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
                 </svg>
-                @psi.sthefano
+                psi.sthefano
               </a>
             </div>
           </div>
