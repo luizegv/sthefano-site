@@ -34,7 +34,7 @@ export default function Hero() {
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-blue-200">
               Psicólogo · CRP 07/44940
             </p>
-            <h1 className="font-serif font-semibold text-[2rem] md:text-[2.7rem] lg:text-[3.375rem] leading-[1.15]">
+            <h1 className="font-serif font-semibold text-[1.9rem] md:text-[2.7rem] lg:text-[3.375rem] leading-[1.15]">
               <span className="whitespace-nowrap">Psicólogo em Santa Maria/RS</span><br />
               <span className="text-blue-200">Atendimento Online para Todo o Brasil</span>
             </h1>
