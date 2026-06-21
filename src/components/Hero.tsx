@@ -36,14 +36,13 @@ export default function Hero() {
             </p>
             <h1 className="font-serif font-semibold text-[1.9rem] md:text-[2.7rem] lg:text-[3.375rem] leading-[1.15]">
               <span className="whitespace-nowrap">Psicólogo em Santa Maria/RS</span><br />
-              <span className="text-blue-200">Atendimento Online para Todo o Brasil</span>
+              <span className="text-blue-200">Atendimento online para todo o Brasil</span>
             </h1>
             <p className="font-serif italic text-2xl text-blue-100 leading-relaxed">
               Mais autonomia para viver de acordo com seus valores.
             </p>
             <p className="font-sans text-blue-200 leading-relaxed">
-              Atendimento presencial em Santa Maria/RS e online para adolescentes
-              e adultos, com base na Terapia Cognitivo-Comportamental.
+              Atendimento psicológico para adolescentes e adultos, presencial em Santa Maria/RS e online para todo o Brasil, com base na Terapia Cognitivo-Comportamental (TCC).
             </p>
             <div className="flex flex-col gap-4 pt-2 max-w-xs">
               <a
