@@ -24,7 +24,7 @@ export default function Abordagem() {
                 Colaboração entre psicólogo e paciente
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                O processo psicoterápico acontece de forma conjunta na construção de estratégias que contribuam para uma vida mais alinhada aos valores do paciente.
+                O processo psicoterápico acontece de forma conjunta na construção de estratégias que contribuam para uma vida mais alinhada aos seus valores.
               </p>
             </div>
             <div className="pt-10">
