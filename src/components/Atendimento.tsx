@@ -35,7 +35,17 @@ export default function Atendimento() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="relative h-[460px] rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="/images/foto-2.jpg"
+              alt="Sthefano Goes em atendimento psicológico"
+              fill
+              className="object-cover object-top"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+
           <div className="space-y-8">
             <p className="font-serif text-sm tracking-[0.2em] uppercase text-navy">
               Modalidades
@@ -51,30 +61,6 @@ export default function Atendimento() {
                 </div>
               </div>
             ))}
-          </div>
-
-          <div className="relative h-[420px] rounded-2xl overflow-hidden shadow-lg">
-            <Image
-              src="/images/foto-2.jpg"
-              alt="Sthefano Goes em atendimento psicológico"
-              fill
-              className="object-cover object-top"
-              sizes="(max-width: 768px) 100vw, 33vw"
-            />
-          </div>
-
-          <div className="bg-navy rounded-2xl p-8 text-white h-full flex flex-col justify-center">
-            <p className="font-serif text-sm tracking-[0.2em] uppercase text-blue-200 mb-4">
-              Contexto esportivo
-            </p>
-            <h3 className="font-serif text-2xl mb-4">
-              Psicologia no esporte
-            </h3>
-            <p className="font-sans text-blue-100 leading-relaxed text-sm">
-              Além da clínica, atuo como psicólogo junto a uma equipe
-              universitária de voleibol, apoiando o bem-estar, foco e
-              desenvolvimento de atletas através de princípios da psicologia.
-            </p>
           </div>
         </div>
       </div>
