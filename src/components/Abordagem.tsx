@@ -32,7 +32,7 @@ export default function Abordagem() {
                 Desenvolvimento de autonomia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                O objetivo é promover maior autonomia, ajudando o paciente a desenvolver habilidades para lidar com suas dificuldades de forma mais consciente, flexível e funcional no dia a dia.
+                Ajudamos o paciente a adquirir habilidades para lidar com suas dificuldades de forma mais consciente, flexível e funcional no dia a dia.
               </p>
             </div>
           </div>
