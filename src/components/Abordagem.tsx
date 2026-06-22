@@ -13,7 +13,7 @@ export default function Abordagem() {
               Terapia Cognitivo-Comportamental (TCC)
             </h2>
             <p className="font-sans text-blue-100 leading-relaxed">
-              A TCC investe na compreensão de si e na construção de novas habilidades. Seu ponto de partida é que aquilo que vivemos não nos afeta de forma direta — é a maneira como interpretamos cada experiência, a partir das nossas crenças, que define o que sentimos e como respondemos.
+              A TCC parte de uma ideia simples: não são os acontecimentos que nos definem, mas o modo como os interpretamos. É sobre esse olhar — e sobre as habilidades para conduzir a própria vida — que o processo se constrói.
             </p>
           </div>
 
@@ -24,7 +24,7 @@ export default function Abordagem() {
                 Um trabalho colaborativo
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Ao longo da terapia, examinamos juntos os padrões de pensamento e de comportamento que se repetem e muitas vezes passam despercebidos. Dessa observação nascem caminhos concretos para enfrentar as demandas do cotidiano de outro modo.
+                Juntos, reconhecemos os padrões de pensamento e comportamento que se repetem e abrimos caminhos novos para lidar com o cotidiano.
               </p>
             </div>
             <div className="pt-10">
@@ -32,7 +32,7 @@ export default function Abordagem() {
                 Flexibilidade e autonomia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                O objetivo não é suprimir as dificuldades, mas ampliar os recursos para atravessá-las. Com mais flexibilidade diante de si mesmo, abre-se espaço para escolher e conduzir a própria vida em direção ao que realmente importa.
+                Mais do que eliminar dificuldades, a terapia amplia seus recursos para enfrentá-las — com liberdade para escolher o que realmente importa.
               </p>
             </div>
           </div>
