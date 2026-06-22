@@ -24,43 +24,14 @@ export default function Sobre() {
             Sthefano Ledesma<br />Carissimi de Goes
           </h2>
           <p className="font-sans text-muted leading-relaxed">
-            Sou psicólogo formado e pós-graduando em Terapia
-            Cognitivo-Comportamental pela PUCRS — uma das abordagens com maior
-            evidência científica na psicologia clínica atual.
+            Sou psicólogo, formado pela Universidade Franciscana (UFN), e atualmente realizo pós-graduação em Terapia Cognitivo-Comportamental pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS). Minha atuação é fundamentada em uma abordagem baseada em evidências científicas, reconhecida por sua eficácia no tratamento de diferentes demandas emocionais e comportamentais.
           </p>
           <p className="font-sans text-muted leading-relaxed">
-            Acredito que o processo terapêutico deve ser colaborativo, prático e
-            orientado para mudanças reais. Meu trabalho é ajudar você a
-            compreender seus padrões de pensamento e comportamento, e a construir
-            ferramentas concretas para lidar com os desafios do cotidiano.
+            Acredito que a psicoterapia deve ser um processo colaborativo, acolhedor e voltado para mudanças significativas na vida das pessoas. Meu trabalho se fundamenta em auxiliar cada paciente a compreender seus padrões de pensamento, emoções e comportamentos, desenvolvendo estratégias práticas para enfrentar desafios, fortalecer recursos pessoais e construir uma vida mais alinhada aos seus objetivos e valores.
           </p>
           <p className="font-sans text-muted leading-relaxed">
-            Além da clínica, atuo no contexto esportivo junto a uma equipe
-            universitária de voleibol, onde aplico princípios da psicologia para
-            apoiar o desenvolvimento e bem-estar de atletas.
+            Além da atuação clínica, possuo experiência como psicólogo no contexto esportivo, com trabalhos desenvolvidos em equipes de futebol e voleibol, voltados ao desenvolvimento de recursos psicológicos relacionados à performance esportiva.
           </p>
-          <div className="pt-6 border-t border-beige space-y-2">
-            <div className="flex items-center gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy inline-block" />
-              <p className="font-sans text-sm text-muted">
-                Psicólogo —{" "}
-                <span className="text-navy font-medium">CRP 07/44940</span>
-              </p>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy inline-block" />
-              <p className="font-sans text-sm text-muted">
-                Pós-graduação em TCC —{" "}
-                <span className="text-navy font-medium">PUCRS</span>
-              </p>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy inline-block" />
-              <p className="font-sans text-sm text-muted">
-                Santa Maria, RS — Presencial e Online
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
