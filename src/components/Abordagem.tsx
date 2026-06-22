@@ -24,7 +24,7 @@ export default function Abordagem() {
                 Abordagem colaborativa
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                O processo psicoterápico é construído em parceria entre psicólogo e paciente, de modo que ambos atuam ativamente na compreensão das demandas e na elaboração de estratégias.
+                O processo psicoterápico é construído em parceria entre psicólogo e paciente, de modo que ambos atuam ativamente na compreensão das demandas e na elaboração de estratégias para uma melhor qualidade de vida.
               </p>
             </div>
             <div className="pt-10">
