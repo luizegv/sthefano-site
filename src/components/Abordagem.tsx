@@ -13,7 +13,7 @@ export default function Abordagem() {
               Terapia Cognitivo-Comportamental (TCC)
             </h2>
             <p className="font-sans text-blue-100 leading-relaxed">
-              A Terapia Cognitivo-Comportamental atua na compreensão de si e no desenvolvimento de habilidades emocionais. Parte do princípio de que não são os acontecimentos em si, mas o significado que atribuímos a eles, que molda o que sentimos e a forma como agimos.
+              A TCC volta-se à compreensão de si e ao desenvolvimento de habilidades. Parte do princípio de que não são os acontecimentos em si, mas o significado que atribuímos a eles, que molda o que sentimos e a maneira como agimos.
             </p>
           </div>
 
@@ -21,18 +21,18 @@ export default function Abordagem() {
           <div className="divide-y divide-white/10">
             <div className="pb-10">
               <h3 className="font-serif text-2xl mb-3">
-                Ferramentas práticas para o dia a dia
+                Ferramentas práticas para lidar com desafios
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Pensamentos, emoções e comportamentos encontram-se profundamente conectados — transformar um deles repercute sobre os demais. Ao longo do percurso terapêutico, reconhecemos os padrões que sustentam o sofrimento e cultivamos recursos concretos para enfrentar as dificuldades com firmeza e serenidade.
+                Pensamentos, emoções e comportamentos encontram-se intimamente ligados — transformar um desses pontos repercute sobre os demais. Ao longo do percurso terapêutico, reconhecemos os padrões que sustentam o sofrimento e cultivamos recursos concretos para enfrentar as dificuldades do cotidiano.
               </p>
             </div>
             <div className="pt-10">
               <h3 className="font-serif text-2xl mb-3">
-                Novas perspectivas e autonomia
+                Foco em objetivos e autonomia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Psicólogo e paciente atuam em parceria para flexibilizar crenças rígidas e construir uma visão realista e funcional de si, do outro e do mundo. O propósito é fortalecer a liberdade de escolher e de viver em coerência com os próprios valores.
+                Psicólogo e paciente atuam em conjunto para flexibilizar crenças rígidas e construir uma perspectiva realista e funcional de si, do mundo e das relações. O propósito é ampliar a liberdade de escolher e de viver em coerência com os próprios valores.
               </p>
             </div>
           </div>
