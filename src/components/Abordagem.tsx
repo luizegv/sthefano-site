@@ -13,7 +13,7 @@ export default function Abordagem() {
               Terapia Cognitivo-Comportamental (TCC)
             </h2>
             <p className="font-sans text-blue-100 leading-relaxed">
-              A TCC é uma psicoterapia estruturada, baseada em evidências científicas. Parte do princípio de que não são as situações em si, mas a forma como as interpretamos que determina como nos sentimos e como reagimos diante delas.
+              A Terapia Cognitivo-Comportamental é uma psicoterapia estruturada e respaldada por evidências científicas. Parte do princípio de que não são os acontecimentos em si, mas o significado que atribuímos a eles, que molda o que sentimos e a forma como agimos.
             </p>
           </div>
 
@@ -21,18 +21,18 @@ export default function Abordagem() {
           <div className="divide-y divide-white/10">
             <div className="pb-10">
               <h3 className="font-serif text-2xl mb-3">
-                Ferramentas para lidar com desafios
+                Ferramentas práticas para o dia a dia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Pensamentos, emoções e comportamentos estão intimamente ligados — a mudança em um desses aspectos impacta os demais. No processo terapêutico, identificamos padrões que influenciam suas reações e desenvolvemos recursos práticos para enfrentá-los com mais segurança e equilíbrio.
+                Pensamentos, emoções e comportamentos encontram-se profundamente conectados — transformar um deles repercute sobre os demais. Ao longo do percurso terapêutico, reconhecemos os padrões que sustentam o sofrimento e cultivamos recursos concretos para enfrentar as dificuldades com firmeza e serenidade.
               </p>
             </div>
             <div className="pt-10">
               <h3 className="font-serif text-2xl mb-3">
-                Perspectiva, objetivos e autonomia
+                Novas perspectivas e autonomia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Terapeuta e paciente trabalham juntos para flexibilizar crenças e construir uma visão mais realista e funcional — sobre si mesmo, o mundo e as relações. O intuito é ampliar a capacidade de agir em consonância com os próprios valores.
+                Psicólogo e paciente caminham lado a lado para flexibilizar crenças rígidas e construir uma visão realista e funcional de si, do outro e do mundo. O propósito é fortalecer a liberdade de escolher e de viver em coerência com os próprios valores.
               </p>
             </div>
           </div>
