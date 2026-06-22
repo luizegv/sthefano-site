@@ -9,7 +9,7 @@ export default function Contato() {
           Contato
         </p>
         <h2 className="font-serif font-semibold text-4xl md:text-5xl text-stone leading-tight">
-          Pronto para dar<br />o primeiro passo?
+          Comece a construir uma vida<br />mais alinhada com seus valores
         </h2>
         <p className="font-sans text-muted leading-relaxed">
           Entre em contato pelo WhatsApp para agendar sua consulta ou tirar
