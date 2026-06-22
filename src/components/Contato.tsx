@@ -11,7 +11,7 @@ export default function Contato() {
         <h2 className="font-serif font-bold text-4xl md:text-5xl text-stone leading-tight">
           Comece a construir uma vida{" "}
           <br className="hidden md:block" />
-          mais alinhada com seus valores
+          mais alinhada aos seus valores
         </h2>
         <p className="font-sans text-muted leading-relaxed">
           Entre em contato pelo WhatsApp para agendar sua consulta ou tirar
