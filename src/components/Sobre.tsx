@@ -24,7 +24,7 @@ export default function Sobre() {
             Sthefano Ledesma<br />Carissimi de Goes
           </h2>
           <p className="font-sans text-muted leading-relaxed">
-            Sou psicólogo, formado pela Universidade Franciscana (UFN), e atualmente realizo pós-graduação em Terapia Cognitivo-Comportamental pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS). Minha atuação é fundamentada em uma abordagem baseada em evidências científicas, reconhecida por sua eficácia no tratamento de diferentes demandas emocionais e comportamentais.
+            Sou psicólogo, formado pela Universidade Franciscana (UFN), e atualmente realizo pós-graduação em Terapia Cognitivo-Comportamental pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS).
           </p>
           <p className="font-sans text-muted leading-relaxed">
             Acredito que a psicoterapia deve ser um processo colaborativo, acolhedor e voltado para mudanças significativas na vida das pessoas. Meu trabalho se fundamenta em auxiliar cada paciente a compreender seus padrões de pensamento, emoções e comportamentos, desenvolvendo estratégias práticas para enfrentar desafios, fortalecer recursos pessoais e construir uma vida mais alinhada aos seus objetivos e valores.
