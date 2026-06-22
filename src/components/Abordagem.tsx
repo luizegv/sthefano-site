@@ -13,7 +13,7 @@ export default function Abordagem() {
               Terapia Cognitivo-Comportamental (TCC)
             </h2>
             <p className="font-sans text-blue-100 leading-relaxed">
-              A TCC atua na compreensão e no desenvolvimento de habilidades. Parte do princípio de que não são as situações em si, mas a forma como as interpretamos — a partir de nossas crenças — que determina como nos sentimos e como respondemos a elas.
+              A TCC é uma psicoterapia estruturada, baseada em evidências científicas. Parte do princípio de que não são as situações em si, mas a forma como as interpretamos que determina como nos sentimos e como reagimos diante delas.
             </p>
           </div>
 
@@ -21,18 +21,18 @@ export default function Abordagem() {
           <div className="divide-y divide-white/10">
             <div className="pb-10">
               <h3 className="font-serif text-2xl mb-3">
-                Processo colaborativo
+                Ferramentas para lidar com desafios
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                No processo terapêutico, trabalhamos juntos para identificar padrões de pensamento e construir estratégias práticas para enfrentar os desafios do cotidiano com mais recursos e clareza.
+                Pensamentos, emoções e comportamentos estão intimamente ligados — a mudança em um desses aspectos impacta os demais. No processo terapêutico, identificamos padrões que influenciam suas reações e desenvolvemos recursos práticos para enfrentá-los com mais segurança e equilíbrio.
               </p>
             </div>
             <div className="pt-10">
               <h3 className="font-serif text-2xl mb-3">
-                Clareza, flexibilidade e autonomia
+                Perspectiva, objetivos e autonomia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                O foco está em promover maior clareza sobre si mesmo, flexibilidade nos pensamentos e autonomia para lidar com as demandas da vida de forma mais alinhada aos seus objetivos e valores.
+                Terapeuta e paciente trabalham juntos para flexibilizar crenças e construir uma visão mais realista e funcional — sobre si mesmo, o mundo e as relações. O intuito é ampliar a capacidade de agir em consonância com os próprios valores.
               </p>
             </div>
           </div>
