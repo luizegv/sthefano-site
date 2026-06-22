@@ -3,7 +3,7 @@ import Image from "next/image";
 const publico = {
   titulo: "Adolescentes e adultos",
   descricao:
-    "Acompanhamento para demandas como ansiedade, depressão, estresse, transições de vida, relacionamentos, identidade, autoestima e desenvolvimento pessoal.",
+    "Acompanhamento para demandas como ansiedade, depressão, estresse, transições de vida, relacionamentos, autoestima e desenvolvimento pessoal.",
 };
 
 const modalidades = [
