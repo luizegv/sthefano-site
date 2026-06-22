@@ -21,7 +21,7 @@ const modalidades = [
   {
     titulo: "Online",
     descricao:
-      "Sessões por videoconferência para todo o Brasil, com a mesma qualidade e cuidado do atendimento presencial.",
+      "São realizadas através de vídeo chamada, por plataforma segura.",
   },
 ];
 
