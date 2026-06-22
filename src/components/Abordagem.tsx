@@ -21,10 +21,10 @@ export default function Abordagem() {
           <div className="divide-y divide-white/10">
             <div className="pb-10">
               <h3 className="font-serif text-2xl mb-3">
-                Abordagem colaborativa
+                Colaboração entre psicólogo e paciente
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                O processo psicoterápico é construído em parceria entre psicólogo e paciente, de modo que ambos atuam ativamente na compreensão das demandas e na elaboração de estratégias para uma melhor qualidade de vida.
+                O processo psicoterápico acontece de forma conjunta na construção de estratégias que contribuam para uma vida mais alinhada aos valores do paciente.
               </p>
             </div>
             <div className="pt-10">
