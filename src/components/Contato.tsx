@@ -8,7 +8,7 @@ export default function Contato() {
         <p className="font-serif text-sm tracking-[0.2em] uppercase text-navy">
           Contato
         </p>
-        <h2 className="font-serif font-semibold text-4xl md:text-5xl text-stone leading-tight">
+        <h2 className="font-serif font-bold text-4xl md:text-5xl text-stone leading-tight">
           Comece a construir uma vida<br />mais alinhada com seus valores
         </h2>
         <p className="font-sans text-muted leading-relaxed">
