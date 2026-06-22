@@ -1,17 +1,10 @@
 import Image from "next/image";
 
-const publicos = [
-  {
-    titulo: "Adolescentes",
-    descricao:
-      "Suporte especializado nas questões da adolescência: identidade, relacionamentos, desempenho escolar, ansiedade e autoestima.",
-  },
-  {
-    titulo: "Adultos",
-    descricao:
-      "Acompanhamento para demandas como ansiedade, depressão, estresse, transições de vida, relacionamentos e desenvolvimento pessoal.",
-  },
-];
+const publico = {
+  titulo: "Adolescentes e adultos",
+  descricao:
+    "Acompanhamento para demandas como ansiedade, depressão, estresse, transições de vida, relacionamentos, identidade, autoestima e desenvolvimento pessoal.",
+};
 
 const modalidades = [
   {
@@ -29,22 +22,17 @@ export default function Atendimento() {
   return (
     <section id="atendimento" className="py-24 bg-cream">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-20">
-          <p className="font-serif text-sm tracking-[0.2em] uppercase text-navy mb-4">
+        <div className="text-center mb-12">
+          <p className="font-serif text-sm tracking-[0.2em] uppercase text-navy">
             Atendimento
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-stone">
-            Para quem é
-          </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-16">
-          {publicos.map((p) => (
-            <div key={p.titulo} className="bg-navy rounded-2xl p-8">
-              <h3 className="font-serif text-2xl text-white mb-3">{p.titulo}</h3>
-              <p className="font-sans text-blue-200 leading-relaxed">{p.descricao}</p>
-            </div>
-          ))}
+        <div className="mb-16">
+          <div className="bg-navy rounded-2xl p-8">
+            <h3 className="font-serif text-2xl text-white mb-3">{publico.titulo}</h3>
+            <p className="font-sans text-blue-200 leading-relaxed">{publico.descricao}</p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 items-center">
