@@ -13,7 +13,7 @@ export default function Abordagem() {
               Terapia Cognitivo-Comportamental (TCC)
             </h2>
             <p className="font-sans text-blue-100 leading-relaxed">
-              A TCC parte de uma ideia simples: não são os acontecimentos que nos definem, mas o modo como os interpretamos. É sobre esse olhar — e sobre as habilidades para conduzir a própria vida — que o processo se constrói.
+              A TCC é uma abordagem da psicoterapia que investiga a relação entre pensamentos, emoções e comportamentos, com foco na compreensão e transformação de padrões que geram sofrimento.
             </p>
           </div>
 
@@ -21,18 +21,18 @@ export default function Abordagem() {
           <div className="divide-y divide-white/10">
             <div className="pb-10">
               <h3 className="font-serif text-2xl mb-3">
-                Um trabalho colaborativo
+                Abordagem colaborativa
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Juntos, reconhecemos os padrões de pensamento e comportamento que se repetem e abrimos caminhos novos para lidar com o cotidiano.
+                O processo terapêutico é construído de forma conjunta entre terapeuta e paciente, com participação ativa de ambos na compreensão das demandas e na construção de estratégias.
               </p>
             </div>
             <div className="pt-10">
               <h3 className="font-serif text-2xl mb-3">
-                Flexibilidade e autonomia
+                Desenvolvimento de autonomia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Mais do que eliminar dificuldades, a terapia amplia seus recursos para enfrentá-las — com liberdade para escolher o que realmente importa.
+                O objetivo é promover maior autonomia, ajudando o paciente a desenvolver habilidades para lidar com suas dificuldades de forma mais consciente, flexível e funcional no dia a dia.
               </p>
             </div>
           </div>
