@@ -13,7 +13,7 @@ export default function Abordagem() {
               Terapia Cognitivo-Comportamental (TCC)
             </h2>
             <p className="font-sans text-blue-100 leading-relaxed">
-              A Terapia Cognitivo-Comportamental é uma psicoterapia estruturada e respaldada por evidências científicas. Parte do princípio de que não são os acontecimentos em si, mas o significado que atribuímos a eles, que molda o que sentimos e a forma como agimos.
+              A Terapia Cognitivo-Comportamental atua na compreensão de si e no desenvolvimento de habilidades emocionais. Parte do princípio de que não são os acontecimentos em si, mas o significado que atribuímos a eles, que molda o que sentimos e a forma como agimos.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export default function Abordagem() {
                 Novas perspectivas e autonomia
               </h3>
               <p className="font-sans text-blue-100 leading-relaxed text-sm">
-                Psicólogo e paciente caminham lado a lado para flexibilizar crenças rígidas e construir uma visão realista e funcional de si, do outro e do mundo. O propósito é fortalecer a liberdade de escolher e de viver em coerência com os próprios valores.
+                Psicólogo e paciente atuam em parceria para flexibilizar crenças rígidas e construir uma visão realista e funcional de si, do outro e do mundo. O propósito é fortalecer a liberdade de escolher e de viver em coerência com os próprios valores.
               </p>
             </div>
           </div>
