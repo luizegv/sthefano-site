@@ -13,8 +13,7 @@ export default function Contato() {
         </h2>
         <p className="font-sans text-muted leading-relaxed">
           Entre em contato pelo WhatsApp para agendar sua consulta ou tirar
-          dúvidas. O primeiro contato não tem custo e pode ser feito a qualquer
-          momento.
+          dúvidas.
         </p>
         <div className="pt-2">
           <a
