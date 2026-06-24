@@ -64,7 +64,10 @@ const jsonLd = {
         addressCountry: "BR",
       },
       telephone: "+5555984545361",
-      sameAs: ["https://www.instagram.com/psi.sthefano"],
+      sameAs: [
+        "https://www.instagram.com/psi.sthefano",
+        "https://www.linkedin.com/in/sthefano-ledesma-carissimi-de-goes-98102b267/",
+      ],
       knowsAbout: [
         "Terapia Cognitivo-Comportamental",
         "Psicologia Clínica",

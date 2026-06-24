@@ -37,6 +37,15 @@ export default function Contato() {
             @psi.sthefano
           </a>
           <span className="hidden sm:inline text-stone/20">|</span>
+          <a
+            href="https://www.linkedin.com/in/sthefano-ledesma-carissimi-de-goes-98102b267/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-navy transition-colors"
+          >
+            LinkedIn
+          </a>
+          <span className="hidden sm:inline text-stone/20">|</span>
           <span>Santa Maria, RS</span>
           <span className="hidden sm:inline text-stone/20">|</span>
           <span>Presencial e Online</span>
