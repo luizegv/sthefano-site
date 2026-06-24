@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import "./globals.css";
+import Analytics from "@/components/Analytics";
+import WhatsAppTracking from "@/components/WhatsAppTracking";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -108,7 +110,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+        <WhatsAppTracking />
+      </body>
     </html>
   );
 }
