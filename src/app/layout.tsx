@@ -35,12 +35,13 @@ export const metadata: Metadata = {
       "Mais autonomia para viver de acordo com seus valores. Terapia Cognitivo-Comportamental presencial e online.",
     type: "website",
     locale: "pt_BR",
-    images: [{ url: "/images/foto-3.jpg", width: 1200, height: 630, alt: "Sthefano Goes - Psicólogo" }],
+    images: [{ url: "/images/og.png", width: 1200, height: 630, alt: "Sthefano Goes - Psicólogo" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sthefano Goes | Psicólogo em Santa Maria RS",
     description: "Mais autonomia para viver de acordo com seus valores.",
+    images: ["/images/og.png"],
   },
   alternates: {
     canonical: "/",
